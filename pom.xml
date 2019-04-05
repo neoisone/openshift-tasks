@@ -62,11 +62,11 @@
     <distributionManagement>
         <repository>
             <id>nexus</id>
-            <url>http://nexus-cicd.apps.sharedocp39.lab.rdu2.cee.redhat.com/content/repositories/releases</url>
+            <url>http://nexus-cicd.router.default.svc.cluster.local/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
-            <url>http://nexus-cicd.apps.sharedocp39.lab.rdu2.cee.redhat.com/content/repositories/snapshots</url>
+            <url>http://nexus-cicd.router.default.svc.cluster.local/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
